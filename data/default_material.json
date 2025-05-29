@@ -1,0 +1,8 @@
+{
+    "type": "Steel",
+    "properties": {
+        "E": 210.0,
+        "v": 0.3,
+        "density": 7200.0
+    }
+}

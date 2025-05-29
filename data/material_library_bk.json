@@ -1,0 +1,56 @@
+{
+    "Steel": {
+        "E": 270,
+        "v": 0.3,
+        "density": 7850.0,
+        "Unit": {
+            "E": "GPa",
+            "density": "kg/m\u00b3"
+        }
+    },
+    "Aluminum": {
+        "E": 70,
+        "v": 0.33,
+        "density": 2700,
+        "Unit": {
+            "E": "GPa",
+            "density": "kg/m\u00b3"
+        }
+    },
+    "Concrete": {
+        "E": 30,
+        "v": 0.2,
+        "density": 2400,
+        "Unit": {
+            "E": "GPa",
+            "density": "kg/m\u00b3"
+        }
+    },
+    "Titanium": {
+        "E": 116,
+        "v": 0.34,
+        "density": 88.0,
+        "Unit": {
+            "E": "GPa",
+            "density": "kg/m\u00b3"
+        }
+    },
+    "Steel_1": {
+        "E": 270,
+        "v": 0.3,
+        "density": "7850.0",
+        "Unit": {
+            "E": "GPa",
+            "density": "kg/m\u00b3"
+        }
+    },
+    "Steel_2": {
+        "E": 270,
+        "v": 0.3,
+        "density": "7850.0",
+        "Unit": {
+            "E": "GPa",
+            "density": "kg/m\u00b3"
+        }
+    }
+}
