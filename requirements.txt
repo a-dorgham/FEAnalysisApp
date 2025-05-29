@@ -1,0 +1,8 @@
+PyQt6
+PyQt6-WebEngine
+matplotlib
+numpy
+pandas
+plotly
+reportlab
+scipy
