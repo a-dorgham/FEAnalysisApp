@@ -100,7 +100,7 @@ class SetupDocks(QMainWindow):
                 "2D_Truss": "2D_Truss.txt",
                 "3D_Truss": "3D_Truss.txt",
                 "2D_Beam": "2D_Beam.txt",
-                "3D_Frame": "3D_Frame_ex50.txt"
+                "3D_Frame": "3D_Frame.txt"
             }
             file_mapping: str | None = file_map.get(structure_type)
             file_dir: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "examples/")
