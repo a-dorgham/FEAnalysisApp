@@ -12,13 +12,13 @@ CROSS_SECTION_START
 # - I_Beam: (B, H, tw, tf, angle)
 # - C_Beam: (B, H, tw, tf, angle)
 # - L_Beam: (B, H, tw, tf, angle)
-Solid_Circular_1 Solid_Circular (0.2,)
-Hollow_Rectangular_1 Hollow_Rectangular (0.2,0.4, 0.15,0.3, 0)
-Hollow_Circular_1 Hollow_Circular (0.4,0.2)
-Solid_Rectangular_1 Solid_Rectangular (0.2,0.4, 0)
-I-Beam_1 I_Beam (0.3,0.4, 0.07,0.07, 0)
-C-Beam_1 C_Beam (0.3,0.4, 0.07,0.07, 0)
-L-Beam_1 L_Beam (0.3,0.4, 0.07,0.07, 270)
+Solid_Circular_1 Solid_Circular (0.2)
+Hollow_Rectangular_1 Hollow_Rectangular (0.2, 0.4, 0.15, 0.3, 0.0)
+Hollow_Circular_1 Hollow_Circular (0.4, 0.2)
+Solid_Rectangular_1 Solid_Rectangular (0.2, 0.4, 0.0)
+I_Beam_1 I_Beam (0.3, 0.4, 0.07, 0.07, 90.0)
+C_Beam_1 C_Beam (0.3, 0.4, 0.07, 0.07, 0.0)
+L_Beam_1 L_Beam (0.3, 0.4, 0.07, 0.07, 0.0)
 CROSS_SECTION_END
 
 MATERIAL_START
