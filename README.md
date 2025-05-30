@@ -192,9 +192,10 @@ This project is licensed under the MIT License.
 
 For bug reports, feature requests, or collaboration:
 
-- **Email**: a.k.y.dorgham@gmail.com
 - **GitHub Issues**: [FEAnalysisApp Issues](https://github.com/a-dorgham/FEAnalysisApp/issues)
-
+- **Email**: a.k.y.dorgham@gmail.com
+- **Connect**: [LinkedIn](https://www.linkedin.com/in/abdeldorgham) | [GoogleScholar](https://scholar.google.com/citations?user=EOwjslcAAAAJ&hl=en)  | [ResearchGate](https://www.researchgate.net/profile/Abdel-Dorgham-2) | [ORCiD](https://orcid.org/0000-0001-9119-5111)
+  
 ---
 
 ## 🙏 Acknowledgements
