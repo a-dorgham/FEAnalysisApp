@@ -5,25 +5,25 @@
 ![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-**FEAnalysisApp** is a cross-platform, Python-based graphical user interface (GUI) for performing Finite Element Analysis (FEA). Designed using **PyQt6**, it provides an intuitive and interactive environment for structural engineers, educators, and researchers to model, analyze, and visualize various types of structures, including beams, trusses, and frames in both 2D and 3D.
+**FEAnalysisApp** is a cross-platform, Python-based graphical user interface (GUI) for performing Finite Element Analysis (FEA). Designed using PyQt6, it provides an intuitive and interactive environment for structural engineers, educators, and researchers to model, analyze, and visualize various types of structures, including beams, trusses, and frames in both 2D and 3D.
 
 ---
 
-## 🔧 Features
+## Features
 
-- 🖥️ **Graphical User Interface** built with **PyQt6**.
-- 📐 Supports **2D and 3D structures**: Trusses, Beams, and Frames.
-- ⚙️ Customizable input using structured `.txt` files or GUI forms.
-- 📦 Modular architecture with extensible solvers and element libraries.
-- 🔄 Supports both **direct and iterative solvers**.
-- 📊 Real-time visualization of analysis results.
-- 📁 Integrated input/output file viewer and result report generator.
-- 🔍 Built-in library for **materials**, **cross-sections**, and **units**.
-- 🌐 Exports results to human-readable reports and visual plots.
+- Graphical User Interface built with PyQt6.
+- Supports 2D and 3D structures: Trusses, Beams, and Frames.
+- Customizable input using structured `.txt` files or GUI forms.
+- Modular architecture with extensible solvers and element libraries.
+- Supports both direct and iterative solvers.
+- Real-time visualization of analysis results.
+- Integrated input/output file viewer and result report generator.
+- Built-in library for materials, cross-sections, and units.
+- Exports results to human-readable reports and visual plots.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FEAnalysisApp/
@@ -42,9 +42,9 @@ FEAnalysisApp/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🔩 Prerequisites
+### Prerequisites
 
 - Python 3.10.5
 - Recommended: Virtual environment
@@ -55,7 +55,7 @@ Install the dependencies using:
 pip install -r requirements.txt
 ```
 
-### ▶️ Running the App
+### Running the App
 
 ```bash
 python main.py
@@ -65,33 +65,28 @@ The GUI will launch, providing access to structure modeling, analysis configurat
 
 ---
 
-## 📚 Usage
+## Usage
 
-1. **Load a Model**:
-   - Use sample input files from `/examples/` folder or import your own.
-2. **Set Parameters**:
-   - Define material properties, cross-sections, boundary conditions, and loads.
-3. **Solve**:
-   - Choose between direct or iterative solvers.
-4. **Visualize**:
-   - View deformation, internal forces, and support reactions graphically.
-5. **Export**:
-   - Generate formatted reports and save the analysis results.
+1. Load a Model: Use sample input files from `/examples/` folder or import your own.
+2. Set Parameters: Define material properties, cross-sections, boundary conditions, and loads.
+3. Solve: Choose between direct or iterative solvers.
+4. Visualize: View deformation, internal forces, and support reactions graphically.
+5. Export: Generate formatted reports and save the analysis results.
 
 ---
 
-## 🧩 Supported Structure Types
+## Supported Structure Types
 
-- ✅ **2D Truss**
-- ✅ **2D Beam**
-- ✅ **3D Truss**
-- ✅ **3D Frame**
+- 2D Truss
+- 2D Beam
+- 3D Truss
+- 3D Frame
 
 More element types and general 3D solids will be supported in future versions.
 
 ---
 
-## 📄 Example Inputs
+## Example Inputs
 
 The `examples/` directory contains ready-to-use structural models. Example:
 
@@ -105,7 +100,7 @@ Input format is simple, human-readable, and structured for easy editing.
 
 ---
 
-## 🛠 Developer Notes
+## Developer Notes
 
 ### Modular Solvers
 
@@ -119,7 +114,7 @@ Input format is simple, human-readable, and structured for easy editing.
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run tests using:
 
@@ -131,7 +126,7 @@ Includes unit tests for core finite element components and shape functions.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > _Main window_
 <img width="712" alt="FEAnalysisApp_1" src="https://github.com/user-attachments/assets/c8095ec6-9637-4a1d-b81d-e84c86dbaa5f" />
@@ -162,16 +157,16 @@ Includes unit tests for core finite element components and shape functions.
 
 ---
 
-## 🌐 Roadmap
+## Roadmap
 
-- 🧩 Add support for shell and solid elements.
-- 🌍 Web-based remote analysis interface.
-- 📊 Advanced post-processing with Plotly.
-- 🧮 Improved mesh generation and visualization.
+- Add support for shell and solid elements.
+- Web-based remote analysis interface.
+- Advanced post-processing with Plotly.
+- Improved mesh generation and visualization.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
@@ -182,26 +177,18 @@ cd FEAnalysisApp
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 📬 Contact
+## Contact
 
 For bug reports, feature requests, or collaboration:
 
-- **GitHub Issues**: [FEAnalysisApp Issues](https://github.com/a-dorgham/FEAnalysisApp/issues)
-- **Email**: a.k.y.dorgham@gmail.com
-- **Connect**: [LinkedIn](https://www.linkedin.com/in/abdeldorgham) | [GoogleScholar](https://scholar.google.com/citations?user=EOwjslcAAAAJ&hl=en)  | [ResearchGate](https://www.researchgate.net/profile/Abdel-Dorgham-2) | [ORCiD](https://orcid.org/0000-0001-9119-5111)
+- GitHub Issues: [FEAnalysisApp Issues](https://github.com/a-dorgham/FEAnalysisApp/issues)
+- Email: a.k.y.dorgham@gmail.com
+- Connect: [LinkedIn](https://www.linkedin.com/in/abdeldorgham) | [GoogleScholar](https://scholar.google.com/citations?user=EOwjslcAAAAJ&hl=en)  | [ResearchGate](https://www.researchgate.net/profile/Abdel-Dorgham-2) | [ORCiD](https://orcid.org/0000-0001-9119-5111)
   
----
 
-## 🙏 Acknowledgements
-
-- Qt Project for the PyQt6 toolkit.
-- NumPy & SciPy for numerical computations.
-- Matplotlib / Plotly for visualization.
-
----
