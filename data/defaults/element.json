@@ -1,0 +1,15 @@
+{
+    "node1": 0,
+    "node2": 0,
+    "section_code": "DEFAULT",
+    "material_code": "DEFAULT",
+    "E": 210.0,
+    "v": 0.3,
+    "G": 76.92,
+    "J": 1.0,
+    "Iy": 1.0,
+    "Iz": 1.0,
+    "A": 1.0,
+    "length": 1.0,
+    "angle": 0.0
+}

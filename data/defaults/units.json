@@ -1,0 +1,10 @@
+{
+    "Modulus (E,G)": "GPa",
+    "Moment of Inertia (Iy,Iz,J)": "m⁴",
+    "Cross-Sectional Area (A)": "m²",
+    "Force (Fx,Fy,Fz)": "N",
+    "Force/Length (F/L)": "N/m",
+    "Displacement (Dx,Dy,Dz)": "m",
+    "Position (X,Y,Z)": "m",
+    "Density (ρ)": "kg/m³"
+}

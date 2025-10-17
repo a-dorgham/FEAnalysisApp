@@ -6,3 +6,5 @@ pandas
 plotly
 reportlab
 scipy
+qdarkstyle
+setuptools
