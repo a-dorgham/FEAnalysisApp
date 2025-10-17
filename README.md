@@ -35,8 +35,8 @@ FEAnalysisApp/
 |
 ├── assets/                    # Static resources (icons, styling, web libraries).
 │   ├── icons/                 # All icon files, structured by their context.
-│   │   ├── analysis_window/ # Icons used in the analysis/viewer window (e.g., solve, view).
-│   │   └── main_window/     # Icons and images for the main application window (e.g., structure types).
+│   │   ├── analysis_window/   # Icons used in the analysis/viewer window (e.g., solve, view).
+│   │   └── main_window/       # Icons and images for the main application window (e.g., structure types).
 │   ├── plotly/                # External JavaScript libraries (e.g., for data visualization).
 │   └── styles/                # CSS/QSS files for application styling (e.g., dark/light mode).
 |
