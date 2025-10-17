@@ -1,0 +1,11 @@
+{
+    "Modulus (E)": 200000000000,
+    "Poisson (v)": 0.3,
+    "Modulus (G)": 76923076923.08,
+    "Moment of Inertia (Iy,Iz)": 1.0,
+    "Moment of Inertia (J)": 1.0,
+    "Cross-Sectional Area (A)": 1.0,
+    "Force (Fx,Fy,Fz)": 1.0,
+    "Displacement (Dx,Dy,Dz)": 1.0,
+    "Position (X,Y,Z)": 1.0
+}
