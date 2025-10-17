@@ -1,8 +1,0 @@
-{
-    "Modulus (E,G)": "ksi",
-    "Moment of Inertia (Iy,Iz,J)": "m\u2074",
-    "Cross-Sectional Area (A)": "cm\u00b2",
-    "Force (Fx,Fy,Fz)": "kN",
-    "Displacement (Dx,Dy,Dz)": "mm",
-    "Position (X,Y,Z)": "m"
-}
