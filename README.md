@@ -27,17 +27,50 @@
 
 ```
 FEAnalysisApp/
-├── main.py                  # Application entry point
-├── core/                   # Core FEA logic and solver modules
-│   └── isoparametric_elements/ # Element stiffness formulation
-├── gui/                    # GUI components, windows, and visualization
-├── data/                   # Default and user-defined libraries and settings
-├── examples/               # Sample input files
-├── icons/                  # Icons used in GUI
-├── tests/                  # PyTest-based test cases
-├── utils/                  # File handling, HTTP server, error handling
-├── requirements.txt        # Dependencies
-└── readme.mak              # This README script
+├── LICENSE                    # The project's license file.
+├── README.md                  # This file.
+├── main.py                    # Application entry point; starts the GUI.
+├── requirements.txt           # Python dependencies for the project.
+├── setup.cfg                  # Configuration file for packaging/tools (e.g., setuptools, pytest).
+|
+├── assets/                    # Static resources (icons, styling, web libraries).
+│   ├── icons/                 # All icon files, structured by their context.
+│   │   ├── analysis_window/ # Icons used in the analysis/viewer window (e.g., solve, view).
+│   │   └── main_window/     # Icons and images for the main application window (e.g., structure types).
+│   ├── plotly/                # External JavaScript libraries (e.g., for data visualization).
+│   └── styles/                # CSS/QSS files for application styling (e.g., dark/light mode).
+|
+├── data/                      # Default, user-defined, and library data files (JSON format).
+│   ├── defaults/              # Default settings for various analysis components (nodes, elements, units, etc.).
+│   └── libraries/             # User-editable libraries for materials and cross-sections.
+|
+├── examples/                  # Sample input text files for running analyses.
+│   └── *.txt
+|
+├── src/                       # Source code for the application's logic and modules.
+│   ├── config.py              # Application-wide configuration settings.
+│   ├── constants.py           # Definition of numerical or physical constants.
+│   ├── core/                  # Core FEA logic, including structure handling and solvers.
+│   │   ├── structure_io.py    # Logic for reading and writing structure data.
+│   │   ├── elements/          # Implementation of different element types (bar, beam, frame).
+│   │   └── solvers/           # Numerical solvers (direct, iterative) for the stiffness matrix.
+│   ├── gui/                   # GUI components using the Qt framework (PyQt/PySide).
+│   │   ├── setup_docks.py     # Configuration for the docked windows.
+│   │   ├── viewers/           # Modules for displaying file, report, and analysis results.
+│   │   ├── widgets/           # Custom reusable GUI components (spinner, tree widget).
+│   │   └── windows/           # Definition of main application windows and dialogs.
+│   └── utils/                 # Utility functions for common tasks.
+│       ├── classes.py         # Custom helper classes.
+│       ├── errors.py          # Custom exception and error handling.
+│       ├── http.py            # HTTP client/server utilities (if used for data/API).
+│       ├── io.py              # General Input/Output and file handling utilities.
+│       └── units.py           # Unit conversion and management logic.
+|
+└── tests/                     # Test suite using pytest.
+    ├── conftest.py            # Fixtures and configuration for pytest.
+    ├── test_*.py              # Test files for individual elements.
+    ├── integration/           # High-level integration tests.
+    └── unit/                  # Low-level unit tests for specific functions/classes.
 ```
 
 ---
